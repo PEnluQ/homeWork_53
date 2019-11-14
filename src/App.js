@@ -1,15 +1,15 @@
 import React, {Component, Fragment} from 'react';
-import nanoid from 'nanoid';
+import nanoid from "nanoid";
 import AddTaskForm from "./Components/AddTaskForm/AddTaskForm";
 import Task from "./Components/Task/Task";
-import './App.css';
+import "./App.css";
 
 class App extends Component {
   state = {
     tasks: [
-      {text:'Buy milk', id: nanoid()},
-      {text:'Walk with dog', id: nanoid()},
-      {text:'Do homework', id: nanoid()},
+      {text:'Buy milk', id:nanoid()},
+      {text:'Walk with dog', id:nanoid()},
+      {text:'Do homework', id:nanoid()},
     ],
     currentText: 'Add_new_task'
   };
@@ -20,7 +20,7 @@ class App extends Component {
   };
 
   addTask = () => {
-      let thisText = {text: this.state.currentText, id: nanoid()};
+      let thisText = {text: this.state.currentText, id:nanoid()};
       const tasks = [...this.state.tasks];
       tasks.push(thisText);
 
