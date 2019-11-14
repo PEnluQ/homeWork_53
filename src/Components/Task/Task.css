@@ -1,0 +1,23 @@
+.card {
+    border: 1px solid firebrick;
+    border-radius: 5px;
+    background: beige;
+    width: 595px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.btn-remove {
+    border: 1px;
+    background: orangered;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    cursor: pointer;
+    padding: 10px;
+}
+.fas {
+    font-size: 30px;
+}
+.text-ready {
+    display: inline-block;
+}

@@ -1,0 +1,21 @@
+.form-block {
+    display: flex;
+}
+.text {
+    width: 520px;
+    height: 33px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 2px solid orange;
+}
+.btn {
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    border: 2px solid #ffcc66;
+    background: linear-gradient(to right, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+    border-radius: 5px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 5px;
+}
